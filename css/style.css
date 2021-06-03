@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+
+:root{
+    --primary-color:#AD764A;
+    --light-color:#FEFEFE;
+    --dark-color:#000;
+    --sky-color:#385D6A;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.5;
+    
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+   list-style-type: none;
+}
+
+a{
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0;
+}
+
+h1,h2,h3,h4,h5{
+    padding: 10px 0;
+    
+}
+
+span{
+    color:var(--light-color);
+}
+
+
+
+
+/* Landing Page bg */
+.Pyramids{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Landing\ page.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+/* Navbar */
+
+.navbar .logo{
+    width: 10%;
+    justify-self: center;
+}
+
+.navbar{
+<<<<<<< HEAD
+    height: 100px;
+=======
+    height: 90px;
+>>>>>>> 5ff2411856ebf58869dd65b1fc95ca0dfd16f6a1
+    padding-top: 15px;
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid #fff;
+}
+.navbar .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Head */
+
+.head{
+    padding-top: 40px;
+    color: var(--light-color);
+   
+}
+
+
+
+.head .flex{
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    height: 2px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+.head-text{
+    padding: 40px 30px;
+    font-weight: bold;
+    font-size:40px;
+    font-family: "Libre Caslon Text";
+}
+
+.scroll{
+    font-family: 'Montserrat';
+    font-size: 7px;
+    letter-spacing: 3px;
+}
+
+
+
+/* Civilization */
+
+.civilization{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/spencer-davis-6UWwgpC4n6Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.civilization{
+    overflow: visible;
+}
+
+.civilization h5,.tutan h5{
+    padding-top: 50px;
+}
+
+.civilization h2,.tutan h2{
+    padding-top: 0px;
+}
+
+.civilization p{
+    padding: 10px 80px;
+    font-size: 12px;
+    
+}
+
+.civilization .grid{
+    grid-template-columns: repeat (2,1fr);
+    grid-template-rows: 0.5fr 2.5fr;
+    height: auto;
+    
+}
+
+.civilization .grid>*:nth-child(3){
+    grid-column: 1/span 3;
+}
+
+.photo{
+    width: 600px;
+    justify-self: center;
+    align-self: center;
+}
+.blurbox{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+}
+
+
+/* Tutan */
+
+.tutan{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/map/omar-elsharawy-pwMbtwA9LRc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.grayscale{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: saturate(2);    
+}
+
+.tutan .grid .grid-type-1{
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.about{
+    /* padding-top: 30px; */
+    align-self: center;
+}
+
+
+.tutan .grid .grid-type-2{
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid-type-2 .about{
+    padding-left: 10px;
+}
+
+/* Read more button */
+
+
+.button{
+    justify-self: center;
+}
+
+.btn-outline{
+    border: 2px solid black;
+    font-size: 23px;
+    font-weight: 600;
+    word-spacing: 3px;
+    width: max-content;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+
+/* Gallery */
+
+.gallery{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/Setof3/580c7e2aa1925ec51c59d51fa9df43d0.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+
+.gallery .grid-center-wide{
+    align-items: center;
+    overflow: visible;
+}
+
+
+.gallery .container-visible{
+    overflow: visible;
+    align-content: center;
+}
+
+.container-visible img{
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.container-visible img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* Footer */
+
+footer{
+    background-color:var(--primary-color);
+    height: 70px;
+}
+
+footer .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer nav ul{
+    display: flex;
+    padding: 5px 5px;
+}
+
+.lis a{    
+    padding: 10px;
+    margin: 0 5px;
+}
+
+
+
+/* CONTACT */
+
+.bg-contact{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/map/omar-elsharawy-pwMbtwA9LRc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+<<<<<<< HEAD
+=======
+
+.map{
+    width: 100%;
+    height: auto;
+}
+
+.contact .grid>*:first-child{
+    align-self: center;
+}
+
+
+/* About Us*/
+.aboutus .grid-type-2 img{
+    width: 50%;
+    justify-self: center;
+}
+
+.aboutus .about-text{
+    align-self: center;
+}
+
+
+
+/* Products */
+
+.product .container-visible{
+    overflow: visible;
+}
+
+
+
+/* Keyframes */
+>>>>>>> 5ff2411856ebf58869dd65b1fc95ca0dfd16f6a1
+
+.map{
+    width: 100%;
+    height: auto;
+}
+
+.contact .grid>*:first-child{
+    align-self: center;
+}
+
+/* About Us*/
+.aboutus .grid-type-2 img{
+    width: 50%;
+    justify-self: center;
+}
+
+.aboutus .about-text{
+    align-self: center;
+}
+
+/* Products */
+
+.product .container-visible{
+    overflow: visible;
+}
+
+
+
+
+
+
+/* Media queries */
+
+@media(max-width:768px){
+
+.Pyramids
+{
+    height: auto;
+}
+
+
+.navbar a{
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.navbar .logo{
+    width: 15%;
+}
+
+.civilization .photo{
+    align-self: flex-start;
+}
+
+.civilization p{
+    padding: 10px 20px;
+    font-size: 12px;
+    
+}
+
+}
+
+
+
+@media(max-width:600px){
+
+.navbar{
+    height: auto;
+}
+
+.navbar .flex
+{
+    flex-direction: column;
+}
+
+.navbar ul{
+    display: block;
+}
+
+.navbar ul li
+{
+    width: 100%;
+    padding: 10px ;
+}
+
+.navbar .logo{
+    width: 100%;
+}
+
+.head-text{
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size:25px;
+    font-family: "Libre Caslon Text";
+}
+
+
+.civilization .photo{
+    width: auto;
+}
+
+.tutan .grid-type-1,
+.tutan .grid-type-2,
+.gallery .grid-center-wide,
+.gallery .grid-3,
+.aboutus .grid-type-1,
+.aboutus .grid-type-2,
+.product .grid-3,
+.contact .grid
+{
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+}
+.tutan h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.tutan p{
+    font-size: 15px;
+    text-align: center;
+}
+.tutan a{
+    padding: auto;
+}
+
+h2{
+    padding: 2rem 0;
+}
+footer{
+    height: auto;
+}
+
+footer .grid-3{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+}

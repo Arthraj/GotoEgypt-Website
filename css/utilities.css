@@ -1,0 +1,176 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+
+.card{
+    background-color: var(--primary-color);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 40px;
+    margin: 10px;
+    color: var(--light-color);
+}
+
+
+.grid-3{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    align-items: center;
+}
+
+.grid-center-wide{
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+/* Text properties */
+.text-center{
+    text-align: center;
+}
+
+.text-libre{
+font-family: "Libre Caslon Text";
+}
+.text-mono{
+    font-family: 'Montserrat';
+}
+
+
+/* Background Colors */
+
+.bg-primary{
+    background-color:var(--primary-color);
+}
+.bg-light{
+    background-color:var(--light-color);
+}
+.bg-dark{
+    background-color:var(--dark-color);
+}
+.bg-sky{
+    background-color:var(--sky-color);
+}
+
+/* Text colors */
+
+.text-light{
+    color: var(--light-color);
+}
+.text-dark{
+    color: var(--dark-color);
+}
+.text-gold{
+    color: var(--primary-color);
+}
+
+
+/* Animations */
+
+.animate-top{
+    animation: slideInFromTop 2s ease;
+}
+
+.animate-bottom{
+    animation: slideInFromBottom 2s ease;
+}
+.animate-left{
+    animation: slideInFromLeft 2s ease;
+}
+.animate-right{
+    animation: slideInFromRight 2s ease;
+}
+
+
+
+
+
+
+/* margins */
+
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 1.5rem 0;
+}
+.my-3{
+    margin: 2rem 0;
+}
+.my-4{
+    margin: 3rem 0;
+}
+.my-5{
+    margin: 4rem 0;
+}
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin: 1.5rem;
+}
+.m-3{
+    margin: 2rem;
+}
+.m-4{
+    margin: 3rem;
+}
+.m-5{
+    margin: 4rem;
+}
+
+/* Paddings */
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 1.5rem 0;
+}
+.py-3{
+    padding: 2rem 0;
+}
+.py-4{
+    padding: 3rem 0;
+}
+.py-5{
+    padding: 4rem 0;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 1.5rem;
+}
+.p-3{
+    padding: 2rem;
+}
+.p-4{
+    padding: 3rem;
+}
+.p-5{
+    padding: 4rem;
+}
+
+
+
+/* ######################################################### */
+
