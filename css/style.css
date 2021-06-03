@@ -70,11 +70,7 @@ span{
 }
 
 .navbar{
-<<<<<<< HEAD
     height: 100px;
-=======
-    height: 90px;
->>>>>>> 5ff2411856ebf58869dd65b1fc95ca0dfd16f6a1
     padding-top: 15px;
 }
 .navbar ul{
@@ -313,41 +309,6 @@ footer nav ul{
     background-size: cover;
     background-attachment: fixed;
 }
-<<<<<<< HEAD
-=======
-
-.map{
-    width: 100%;
-    height: auto;
-}
-
-.contact .grid>*:first-child{
-    align-self: center;
-}
-
-
-/* About Us*/
-.aboutus .grid-type-2 img{
-    width: 50%;
-    justify-self: center;
-}
-
-.aboutus .about-text{
-    align-self: center;
-}
-
-
-
-/* Products */
-
-.product .container-visible{
-    overflow: visible;
-}
-
-
-
-/* Keyframes */
->>>>>>> 5ff2411856ebf58869dd65b1fc95ca0dfd16f6a1
 
 .map{
     width: 100%;
